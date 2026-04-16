@@ -1,4 +1,0 @@
-This is first file in java 
-ID: 1
- Name: Rishav
- marks: 90
