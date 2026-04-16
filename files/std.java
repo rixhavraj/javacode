@@ -56,7 +56,7 @@ public class std {
 
         try{
             student2 su = new student2(1, "Rishav");
-            FileOutputStream fs = new FileOutputStream("Studen2.set");
+            FileOutputStream fs = new FileOutputStream("Studen.txt");
             ObjectOutputStream ob = new ObjectOutputStream (fs);
             ob.writeObject(su);
             ob.close();
